@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="list-page">
+    <header class="page-header">
+        <h1>{{ .Title }}</h1>
+    </header>
+
+    {{ .Content }}
+
+    {{ if .Pages }}
+    <div class="posts-list">
+        {{ range .Pages }}
+        <article class="post-item">
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            {{ if not .Date.IsZero }}
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            {{ end }}
+            {{ if .Params.tags }}
+            <div class="tags">
+                {{ range .Params.tags }}
+                <span class="tag">#{{ . }}</span>
+                {{ end }}
+            </div>
+            {{ end }}
+        </article>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}

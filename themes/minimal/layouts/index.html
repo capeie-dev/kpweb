@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="home">
+    <div class="content">
+        {{ .Content }}
+    </div>
+
+    <section class="recent-posts">
+        <h2>Recent Posts</h2>
+        <div class="posts-grid">
+            {{ $pages := where .Site.RegularPages "Section" "in" (slice "fundamentals" "projects" "thoughts") }}
+            {{ range first 6 $pages }}
+            <article class="post-card">
+                <span class="post-section">{{ .Section }}</span>
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                {{ if not .Date.IsZero }}
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+                {{ end }}
+            </article>
+            {{ end }}
+        </div>
+    </section>
+</div>
+{{ end }}

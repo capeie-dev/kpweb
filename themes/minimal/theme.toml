@@ -1,0 +1,4 @@
+name = "Minimal"
+license = "MIT"
+description = "A clean, minimal theme for technical blogs"
+min_version = "0.100.0"
