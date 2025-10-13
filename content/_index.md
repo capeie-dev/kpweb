@@ -10,9 +10,7 @@ AI Engineer exploring the depths of machine learning and deep learning.
 
 I solve problems, build projects, and share my journey through artificial intelligence.
 
-<p align="center">
-  <img src="/images/mm.jpg" alt="cover-art" width="300">
-</p>
+{{< img-center src="/images/mm.jpg" alt="cover-art" width="300" >}}
 
 ---
 

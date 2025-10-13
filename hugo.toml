@@ -1,4 +1,4 @@
-baseURL = 'https://capeie-dev.github.io/'
+baseURL = 'https://capeie-dev.github.io/kpweb/'
 languageCode = 'en-us'
 title = "Krishna Prasad"
 theme = 'minimal'
