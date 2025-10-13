@@ -15,7 +15,7 @@ I solve problems, build projects, and share my journey through artificial intell
 ---
 
 **Explore:**
-- [Fundamentals](/fundamentals/) - Neural Network fundamentals
-- [Projects](/projects/) - Things I've built
-- [Thoughts](/thoughts/) - Ideas and reflections
-- [About](/about/) - More about me
+- [Fundamentals]({{< relref "/fundamentals" >}}) - Neural Network fundamentals
+- [Projects]({{< relref "/projects" >}}) - Things I've built
+- [Thoughts]({{< relref "/thoughts" >}}) - Ideas and reflections
+- [About]({{< relref "/about" >}}) - More about me
