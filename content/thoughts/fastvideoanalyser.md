@@ -7,3 +7,6 @@ draft: false
 2. how are we defining "large"?
 3. what are the constraints on the processing?
 4. what are some examples of "fast" processing?
+
+
+5. various models as a tool to use?
