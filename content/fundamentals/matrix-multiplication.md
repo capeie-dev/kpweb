@@ -1,5 +1,5 @@
 ---
-title: "Place holder 1"
+title: "Matrix Operations"
 date: 2025-01-15
 draft: false
 tags: ["linear-algebra", "numpy", "fundamentals"]
