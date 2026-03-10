@@ -1,6 +1,6 @@
 ---
 title: "SSH into Arch Linux"
-date: 2025-01-10
+date: 2026-03-10
 draft: false
 tags: ["ssh", "arch", "linux"]
 ---
